@@ -22,7 +22,9 @@
     "watch": "tsc --outDir esm --module es2015 --watch"
   },
   "dependencies": {
-    "ra-core": "^3.11.1"
+    "ra-core": "^3.11.1",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.1.3"
   },
   "keywords": [
     "react",
