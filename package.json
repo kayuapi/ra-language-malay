@@ -1,39 +1,40 @@
 {
-    "name": "ra-language-malay",
-    "version": "3.11.1",
-    "description": "Malay messages for react-admin, the frontend framework for building admin applications on top of REST/GraphQL services",
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/kayuapi/ra-language-malay.git"
-    },
-    "files": [
-        "*.md",
-        "lib",
-        "esm",
-        "src"
-    ],
-    "main": "lib/index.js",
-    "module": "esm/index.js",
-    "types": "esm/index.d.ts",
-    "scripts": {
-        "build": "yarn run build-cjs && yarn run build-esm",
-        "build-cjs": "rimraf ./lib && tsc",
-        "build-esm": "rimraf ./esm && tsc --outDir esm --module es2015",
-        "watch": "tsc --outDir esm --module es2015 --watch"
-    },
-    "dependencies": {
-        "ra-core": "^3.11.1"
-    },
-    "keywords": [
-        "react",
-        "react-admin",
-        "admin-on-rest",
-        "translation"
-    ],
-    "author": "kayuapi",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/kayuapi/ra-language-malay/issues"
-    },
-    "homepage": "https://github.com/kayuapi/ra-language-malay#readme"
+  "name": "ra-language-malay",
+  "version": "3.11.1",
+  "description": "Malay messages for react-admin, the frontend framework for building admin applications on top of REST/GraphQL services",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kayuapi/ra-language-malay.git"
+  },
+  "files": [
+    "*.md",
+    "lib",
+    "esm",
+    "src"
+  ],
+  "main": "lib/index.js",
+  "module": "esm/index.js",
+  "types": "esm/index.d.ts",
+  "scripts": {
+    "build": "yarn run build-cjs && yarn run build-esm",
+    "build-cjs": "rimraf ./lib && tsc",
+    "build-esm": "rimraf ./esm && tsc --outDir esm --module es2015",
+    "watch": "tsc --outDir esm --module es2015 --watch"
+  },
+  "dependencies": {
+    "ra-core": "^3.11.1"
+  },
+  "keywords": [
+    "react",
+    "react-admin",
+    "admin-on-rest",
+    "translation"
+  ],
+  "author": "kayuapi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kayuapi/ra-language-malay/issues"
+  },
+  "homepage": "https://github.com/kayuapi/ra-language-malay#readme",
+  "devDependencies": {}
 }
